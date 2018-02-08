@@ -23,6 +23,10 @@ namespace Class2Prep2
 
             };
             string[] numbers = stringList.ToArray();
+            fiveletters(numbers);
+        }
+        static void fiveletters(string[] numbers)
+        {
             foreach (string number in numbers)
             {
                 string length = number.Length.ToString();
@@ -33,6 +37,5 @@ namespace Class2Prep2
                 }
             }
         }
-        
     }
 }
